@@ -1,0 +1,15 @@
+---
+packages: []
+jobs:
+- name: ssh
+  version: ff379e58e0cea599a257c7adbeca75b15af8a5f0
+  fingerprint: ff379e58e0cea599a257c7adbeca75b15af8a5f0
+  sha1: fe7929ee2dbea8450db01bb931e623b054499a7b
+license:
+  version: 8664f710d717d4d8b539a35813113cf20786e418
+  fingerprint: 8664f710d717d4d8b539a35813113cf20786e418
+  sha1: e759e750923dda33583d4a536d4df746a03f544b
+commit_hash: 3a5daba9
+uncommitted_changes: true
+name: ssh
+version: '1'
