@@ -1,0 +1,18 @@
+---
+name: ssh
+packages: []
+templates:
+  bin/ctl: bin/ctl
+  helpers/ctl_setup.sh: helpers/ctl_setup.sh
+  helpers/ctl_utils.sh: helpers/ctl_utils.sh
+
+properties:
+  ssh.users:
+    description: >
+      Array of users and keys
+      - name: lnguyen
+        authorized_keys:
+        - ssh-rsa AAAAB3NzaC1y lnguyen
+      - name: gfranks
+        authorized_keys:
+        - ssh-rsa AAAABDFDuy gfranks

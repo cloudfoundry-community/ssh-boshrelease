@@ -34,3 +34,10 @@ networks:
     gateway: 10.244.11.1
     static:
       - 10.244.11.2 - 10.244.11.60
+
+properties:
+  ssh:
+    users:
+    - name: lnguyen
+      authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDoVQD0Uu8KHPYnQ/q5TMXhG1NQNTEWA/sR74Uog5APQMamZz4jyphmV3dyUnia5T8+nisO/ArSAXkaJGvEMow4tjkE/dK0PMpxZchal7yzp5EQaVr5wuO+gJUsgp8RsGS/H+9HTxFVDtDv8Sf0QI2nXPBzBl066LJtYvYrwr9wb2Pd1fNwnsgmcXuTGoPz5lS9Bii3HcLQSzLEqcl0Kvs0vi4cl8T06gghaEg198b+NyT6eXpWnefK1xchatOwfNmSWIeY0spRawvNt3N2qdUvaTbEh6OYTciRcD1y49Cj76d8eWlsFpH3Dg05pdF5Cnd6OErFy8XcPJjrX5LZ6KpEM/IAyxi+2QWk0bHpovnntAyFcR3pSOkZZLqNLRpixMW5BuJ+fz/ViZV0hF6RzJH8HIHF/+sHnFCuiXuUOtKe5F+xT0MB6Nsd07G4qmdpRClbDxXCPX8uwe0YVydeyNrcrPRQmOZzWEP65VIMXbYPJazoWLe7fMxAdU1478YEMhkF/kbSMFSdilobZxON5W4yRTcsqlfqLfW2Gl+Qynn8NyJuMSnVDJkiCxsRWn49MuVsq2XSCwYNau7SmYv3Fk80mLgkSA1mBkRygs0dMBSxwKqFOfBumwYnM0BPXCzu2LrlDvk0foqCtDZ+RqvoO0AydjjLrdOBLoWB8cBC4IJvow== lnguyen@Longs-MacBook-Pro.local
