@@ -1,5 +1,7 @@
 # BOSH Release for ssh
 
+BOSH Release to add users into BOSH vm
+
 ## Usage
 
 To use this bosh release, first upload it to your bosh:
