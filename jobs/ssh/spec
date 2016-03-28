@@ -13,6 +13,3 @@ properties:
       - name: lnguyen
         authorized_keys:
         - ssh-rsa AAAAB3NzaC1y lnguyen
-      - name: gfranks
-        authorized_keys:
-        - ssh-rsa AAAABDFDuy gfranks
